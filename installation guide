@@ -1,0 +1,29 @@
+
+---
+
+## Installation (Manual)
+
+1. Open Chrome
+2. Go to chrome://extensions/
+3. Enable Developer Mode
+4. Click "Load unpacked"
+5. Select the extension folder
+
+---
+
+## File Structure
+
+- `manifest.json` – Extension configuration
+- `background.js` – Service worker logic
+- `popup.html` – Extension popup UI
+- `stealth_injector.js` – Runtime DOM injection payload
+
+---
+
+## Disclaimer
+
+This project is provided strictly for educational and research purposes.
+
+The author does not encourage bypassing security mechanisms, violating platform terms of service, or interfering with proctoring systems.
+
+Use responsibly.
