@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "CCBP Ghost (Remastered)",
+  "version": "15.0",
+  "description": "The Ultimate Educational Debugger.",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "debugger"
+  ],
+  "host_permissions": [
+    "*://*.ccbp.in/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "commands": {
+    "activate-ghost": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+L",
+        "mac": "MacCtrl+Shift+L"
+      },
+      "description": "Toggle Ghost Mode"
+    }
+  }
+}
